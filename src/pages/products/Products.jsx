@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import Loading from '../../component/Loading/loading'
-import Card from '../../component/card/card'
+import Card from '../../component/Card/Card'
 import axios from 'axios'
 import { useEffect } from 'react'
 import Homeslider from '../../component/Homeslider/Homeslider'
