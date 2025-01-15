@@ -10,7 +10,7 @@ import ProtectedRoute from "./component/protectedRout/ProtectedRoute";
 
 import UserProvider from './context/User.context'
 import CartProvider from "./context/cart.context"
-import Cart from './pages/cart/cart'
+import Cart from './pages/cart/Cart'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import CheckOut from './pages/checkOut/CheckOut'
 import Order from './pages/Order/Order'
