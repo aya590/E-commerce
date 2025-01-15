@@ -6,7 +6,8 @@ import Login from './pages/Login/Login'
 import Signup from './pages/Signup/Signup'
 import toast, { Toaster } from 'react-hot-toast'
 import GustRout from "./component/GustRout/GustRout"
-import ProtectRout from './component/protectedRout/protectedRout'
+import ProtectedRoute from "./component/protectedRout/ProtectedRoute";
+
 import UserProvider from './context/User.context'
 import CartProvider from "./context/cart.context"
 import Cart from './pages/cart/cart'
@@ -27,9 +28,9 @@ function App() {
 
   {path:"/",
     element: (
-      <ProtectRout>
+      <ProtectedRoute>
  <Layout/>
-      </ProtectRout>
+      </ProtectedRoute>
     ),
    children: [
     {index: true,element :<Home/>},
