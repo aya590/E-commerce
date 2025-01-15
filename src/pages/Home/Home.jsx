@@ -1,11 +1,13 @@
 import React, { useContext, useState } from 'react'
 
-import Card from '../../component/card/card'
+
 import axios from 'axios'
 import { useEffect } from 'react'
 import Homeslider from '../../component/Homeslider/Homeslider'
 import Categoryslider from '../../component/categoryslider/Categoryslider'
 import Loading from "../../component/Loading/loading";
+import Card from "../../component/card/card";
+
 
 
 
