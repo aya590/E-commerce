@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Categoryitem from '../../component/category/Categoryitem'
 import axios from 'axios'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 import Subcategoryitem from '../../component/subcategoryitem/subcategoryitem'
 
 export default function Categories() {

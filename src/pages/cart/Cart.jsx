@@ -1,6 +1,6 @@
 import React, { useEffect, useContext} from 'react'
 import { Cartcontext } from '../../context/cart.context'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 import CartItem from '../../component/cartItem/cartItem'
 import { Link } from 'react-router-dom'
 

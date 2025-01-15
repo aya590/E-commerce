@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 
 export default function Brands() {
 const [brands,setbrands]=useState(null)

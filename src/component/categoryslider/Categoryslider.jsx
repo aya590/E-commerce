@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-import Loading from '../loading/loading';
+import Loading from '../Loading/loading';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 import Card from '../../component/card/card'
 import axios from 'axios'
 import { useEffect } from 'react'

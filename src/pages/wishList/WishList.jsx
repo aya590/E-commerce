@@ -1,7 +1,7 @@
 
 import React, { useContext, useEffect } from 'react'
 import { wishlistcontext } from '../../context/wishlist.context'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 import { Cartcontext } from '../../context/cart.context';
 
 

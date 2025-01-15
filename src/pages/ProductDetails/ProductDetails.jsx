@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useContext, useEffect,useRef } from 'react'
 import { useState } from 'react'
-import Loading from '../../component/loading/loading'
+import Loading from '../../component/Loading/loading'
 import { useParams } from 'react-router-dom';
 import { Cartcontext } from '../../context/cart.context';
 import { Swiper, SwiperSlide } from 'swiper/react';
